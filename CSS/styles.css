@@ -6,11 +6,22 @@ img{
 }
 
 
+.search_bar{
+  float: right;
+  border: none;
+  width: 15%;
+  font-size: 17px;
+  padding: 14px 15px;
+}
 /* set height of body and document to 100% to enable "full page tabs" */
 body, html{
   height: 100%;
   margin: 0;
   font-family: Arial;
+}
+
+nav {
+  width: 100%;
 }
 
 /* Style tab links */
@@ -21,7 +32,7 @@ body, html{
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 14px 0px;
   font-size: 17px;
   width: 25%;
 }
